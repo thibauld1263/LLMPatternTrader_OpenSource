@@ -1,0 +1,1238 @@
+{
+  "version": 1,
+  "saved_at": "2026-03-15 19:30:58",
+  "session_info": {
+    "symbols": [
+      "AUDCAD",
+      "AUDCHF",
+      "AUDJPY",
+      "AUDNZD",
+      "AUDUSD",
+      "CADCHF",
+      "CADJPY",
+      "CHFJPY",
+      "EURAUD",
+      "EURCAD",
+      "EURCHF",
+      "EURGBP",
+      "EURJPY",
+      "EURUSD",
+      "GBPCHF",
+      "GBPJPY",
+      "GBPNZD",
+      "GBPUSD",
+      "NZDCAD",
+      "NZDCHF",
+      "NZDJPY",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY",
+      "XAUUSD",
+      "XAGUSD",
+      "GER40",
+      "NAS100",
+      "US30",
+      "US500",
+      "XBRUSD",
+      "XTIUSD"
+    ],
+    "timeframes": [
+      "H1"
+    ],
+    "bars_to_fetch": 50000,
+    "min_win_rate": 0.4,
+    "min_profit_factor": 1.3,
+    "min_trades": 30
+  },
+  "validated_cache": {
+    "AUDCAD|H1": {
+      "MultiDivergence": {
+        "win_rate": 0.4635036496350365,
+        "profit_factor": 1.322616192800155,
+        "trade_count": 274,
+        "avg_gain": 5.090871752882946
+      },
+      "P_BullStrongDragonflyDoji": {
+        "win_rate": 0.4768211920529801,
+        "profit_factor": 1.5638336905626264,
+        "trade_count": 151,
+        "avg_gain": 7.132321525353423
+      },
+      "SymmetricalTriangle": {
+        "win_rate": 0.5151515151515151,
+        "profit_factor": 1.6066845070010303,
+        "trade_count": 66,
+        "avg_gain": 6.747776477127085
+      },
+      "BearishFakey": {
+        "win_rate": 0.582089552238806,
+        "profit_factor": 1.6189786755364912,
+        "trade_count": 67,
+        "avg_gain": 7.611696760535756
+      },
+      "DivAtPivotBear": {
+        "win_rate": 0.5276595744680851,
+        "profit_factor": 1.3491992592953186,
+        "trade_count": 235,
+        "avg_gain": 4.440922386586665
+      }
+    },
+    "AUDCHF|H1": {
+      "ShootingStar": {
+        "win_rate": 0.5174825174825175,
+        "profit_factor": 1.3407488705060744,
+        "trade_count": 143,
+        "avg_gain": 3.4124728332619023
+      },
+      "DisplacementBear": {
+        "win_rate": 0.6097560975609756,
+        "profit_factor": 1.8687560721798269,
+        "trade_count": 41,
+        "avg_gain": 8.737078953735839
+      },
+      "ThreeDriveBear": {
+        "win_rate": 0.6301369863013698,
+        "profit_factor": 2.284624203558182,
+        "trade_count": 73,
+        "avg_gain": 9.961067065974621
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.6470588235294118,
+        "profit_factor": 2.619420870448505,
+        "trade_count": 51,
+        "avg_gain": 13.221032809159867
+      },
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.524822695035461,
+        "profit_factor": 1.4088606425733845,
+        "trade_count": 141,
+        "avg_gain": 3.9796314189131894
+      },
+      "P_BearStrongGravestoneDoji": {
+        "win_rate": 0.5338345864661654,
+        "profit_factor": 1.4789187851635517,
+        "trade_count": 133,
+        "avg_gain": 4.762117009206586
+      },
+      "SymmetricalTriangle": {
+        "win_rate": 0.5229357798165137,
+        "profit_factor": 1.3685901682280621,
+        "trade_count": 109,
+        "avg_gain": 3.775284271180479
+      }
+    },
+    "AUDJPY|H1": {
+      "InvHeadAndShoulders": {
+        "win_rate": 0.5089820359281437,
+        "profit_factor": 1.418351269759612,
+        "trade_count": 167,
+        "avg_gain": 6.7188488624321225
+      },
+      "SharkBull": {
+        "win_rate": 0.6578947368421053,
+        "profit_factor": 2.166484963392608,
+        "trade_count": 38,
+        "avg_gain": 15.875698531258228
+      },
+      "HolyGrailPullback": {
+        "win_rate": 0.6129032258064516,
+        "profit_factor": 2.275408624658894,
+        "trade_count": 31,
+        "avg_gain": 17.929807916627876
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.6415094339622641,
+        "profit_factor": 2.5667298269112213,
+        "trade_count": 53,
+        "avg_gain": 16.368558633787938
+      },
+      "DescendingTriangle": {
+        "win_rate": 0.5208333333333334,
+        "profit_factor": 1.5328641041437523,
+        "trade_count": 48,
+        "avg_gain": 8.153125923918866
+      },
+      "SymmetricalTriangle": {
+        "win_rate": 0.5686274509803921,
+        "profit_factor": 1.5125045941511484,
+        "trade_count": 102,
+        "avg_gain": 7.7494429997074
+      },
+      "BullishFakey": {
+        "win_rate": 0.5106382978723404,
+        "profit_factor": 1.3481229504221115,
+        "trade_count": 141,
+        "avg_gain": 6.140832095178187
+      }
+    },
+    "AUDNZD|H1": {
+      "ATR_Expansion": {
+        "win_rate": 0.6842105263157895,
+        "profit_factor": 2.31938107012917,
+        "trade_count": 38,
+        "avg_gain": 15.44194609324995
+      },
+      "WolfeWave": {
+        "win_rate": 0.5949367088607594,
+        "profit_factor": 1.6909207341188377,
+        "trade_count": 79,
+        "avg_gain": 7.343927877249064
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.527027027027027,
+        "profit_factor": 1.3918888973223273,
+        "trade_count": 74,
+        "avg_gain": 4.207875164053094
+      }
+    },
+    "AUDUSD|H1": {
+      "ShootingStar": {
+        "win_rate": 0.5058823529411764,
+        "profit_factor": 1.3660550935660096,
+        "trade_count": 170,
+        "avg_gain": 4.405413860915582
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5357142857142857,
+        "profit_factor": 1.372444325850656,
+        "trade_count": 112,
+        "avg_gain": 4.683199697484329
+      },
+      "DescendingTriangle": {
+        "win_rate": 0.5142857142857142,
+        "profit_factor": 1.5040194589777636,
+        "trade_count": 35,
+        "avg_gain": 5.222158687110718
+      },
+      "BroadeningTriangle": {
+        "win_rate": 0.5,
+        "profit_factor": 1.3478866802717104,
+        "trade_count": 92,
+        "avg_gain": 4.248913632650301
+      }
+    },
+    "CADCHF|H1": {
+      "AbsorptionBull": {
+        "win_rate": 0.4931506849315068,
+        "profit_factor": 1.417964297624299,
+        "trade_count": 73,
+        "avg_gain": 4.1331635225849865
+      },
+      "ThreeDriveBear": {
+        "win_rate": 0.5833333333333334,
+        "profit_factor": 1.7494567542193988,
+        "trade_count": 72,
+        "avg_gain": 5.791874003879245
+      },
+      "BatBear": {
+        "win_rate": 0.5609756097560976,
+        "profit_factor": 1.8509645035655582,
+        "trade_count": 41,
+        "avg_gain": 6.479878013059866
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.6530612244897959,
+        "profit_factor": 2.88383092043328,
+        "trade_count": 49,
+        "avg_gain": 12.049271468614554
+      },
+      "BroadeningTriangle": {
+        "win_rate": 0.5757575757575758,
+        "profit_factor": 1.7444441041404606,
+        "trade_count": 66,
+        "avg_gain": 5.559337998910104
+      },
+      "DivAtPivotBear": {
+        "win_rate": 0.5423728813559322,
+        "profit_factor": 1.538127020885474,
+        "trade_count": 177,
+        "avg_gain": 4.597961436021813
+      }
+    },
+    "CADJPY|H1": {
+      "DisplacementBull": {
+        "win_rate": 0.5257731958762887,
+        "profit_factor": 1.3668940618262069,
+        "trade_count": 97,
+        "avg_gain": 5.744459741685059
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.4928571428571429,
+        "profit_factor": 1.3894954856772435,
+        "trade_count": 140,
+        "avg_gain": 6.727242813617756
+      },
+      "P_BullStrongDragonflyDoji": {
+        "win_rate": 0.5421686746987951,
+        "profit_factor": 1.4573432944927742,
+        "trade_count": 166,
+        "avg_gain": 6.9325991157547335
+      },
+      "P_StrongBearEngulfing": {
+        "win_rate": 0.5461254612546126,
+        "profit_factor": 1.5508258672523112,
+        "trade_count": 271,
+        "avg_gain": 8.429685482472717
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.7073170731707317,
+        "profit_factor": 3.2778816229576435,
+        "trade_count": 41,
+        "avg_gain": 18.213475124540317
+      },
+      "RoundingBottom": {
+        "win_rate": 0.5308056872037915,
+        "profit_factor": 1.4601134028240437,
+        "trade_count": 211,
+        "avg_gain": 7.333015340632823
+      }
+    },
+    "CHFJPY|H1": {
+      "WyckoffSpring": {
+        "win_rate": 0.5660377358490566,
+        "profit_factor": 1.559415596283064,
+        "trade_count": 106,
+        "avg_gain": 9.872514653356706
+      },
+      "ThreeDriveBull": {
+        "win_rate": 0.6333333333333333,
+        "profit_factor": 2.180358869432484,
+        "trade_count": 60,
+        "avg_gain": 19.248515375667026
+      },
+      "BatBear": {
+        "win_rate": 0.5853658536585366,
+        "profit_factor": 2.202773084862773,
+        "trade_count": 41,
+        "avg_gain": 19.62339491989567
+      },
+      "WolfeWave": {
+        "win_rate": 0.5568181818181818,
+        "profit_factor": 1.692679589610239,
+        "trade_count": 88,
+        "avg_gain": 13.19520067549159
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5652173913043478,
+        "profit_factor": 1.5943238602736465,
+        "trade_count": 138,
+        "avg_gain": 10.944061858911354
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5396825396825397,
+        "profit_factor": 1.7176218819379623,
+        "trade_count": 63,
+        "avg_gain": 12.510988983686593
+      }
+    },
+    "EURAUD|H1": {
+      "DisplacementBear": {
+        "win_rate": 0.4857142857142857,
+        "profit_factor": 1.4610560656598979,
+        "trade_count": 70,
+        "avg_gain": 10.59250432298835
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.6086956521739131,
+        "profit_factor": 2.0666172024991427,
+        "trade_count": 69,
+        "avg_gain": 19.670652687104557
+      },
+      "MitigationBull": {
+        "win_rate": 0.5017667844522968,
+        "profit_factor": 1.3111562904028602,
+        "trade_count": 283,
+        "avg_gain": 7.319076937043797
+      },
+      "P_BullStrongDragonflyDoji": {
+        "win_rate": 0.5177304964539007,
+        "profit_factor": 1.4760702179034857,
+        "trade_count": 141,
+        "avg_gain": 10.100771168440701
+      },
+      "BroadeningTriangle": {
+        "win_rate": 0.5866666666666667,
+        "profit_factor": 1.8671215307444196,
+        "trade_count": 75,
+        "avg_gain": 16.186281205672366
+      }
+    },
+    "EURCAD|H1": {
+      "WolfeWave": {
+        "win_rate": 0.6608695652173913,
+        "profit_factor": 2.4932483252014817,
+        "trade_count": 115,
+        "avg_gain": 19.587599827340085
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5294117647058824,
+        "profit_factor": 1.8574295683838353,
+        "trade_count": 34,
+        "avg_gain": 12.53778824357438
+      },
+      "WyckoffDistribSeq": {
+        "win_rate": 0.5142857142857142,
+        "profit_factor": 1.4706342804579875,
+        "trade_count": 35,
+        "avg_gain": 7.438505144654159
+      }
+    },
+    "EURCHF|H1": {
+      "ExhaustionBear": {
+        "win_rate": 0.5769230769230769,
+        "profit_factor": 1.6943152486936746,
+        "trade_count": 52,
+        "avg_gain": 6.934177577354039
+      },
+      "WyckoffUpthrust": {
+        "win_rate": 0.5739130434782609,
+        "profit_factor": 1.6578782882040455,
+        "trade_count": 115,
+        "avg_gain": 5.271743610690498
+      },
+      "ThreeDriveBear": {
+        "win_rate": 0.625,
+        "profit_factor": 2.1615864578851443,
+        "trade_count": 40,
+        "avg_gain": 9.052143498757797
+      },
+      "WolfeWave": {
+        "win_rate": 0.574468085106383,
+        "profit_factor": 1.68764019057691,
+        "trade_count": 94,
+        "avg_gain": 6.609534227577858
+      }
+    },
+    "EURGBP|H1": {
+      "HeadAndShoulders": {
+        "win_rate": 0.5423728813559322,
+        "profit_factor": 1.5829991884701298,
+        "trade_count": 118,
+        "avg_gain": 4.686576761498371
+      },
+      "WolfeWave": {
+        "win_rate": 0.5154639175257731,
+        "profit_factor": 1.3184043796323692,
+        "trade_count": 97,
+        "avg_gain": 3.1294874920032805
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5692307692307692,
+        "profit_factor": 1.7448238852314641,
+        "trade_count": 130,
+        "avg_gain": 6.757361488287606
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5609756097560976,
+        "profit_factor": 1.6409014055611164,
+        "trade_count": 41,
+        "avg_gain": 5.34046880566837
+      },
+      "DivAtPivotBear": {
+        "win_rate": 0.5314285714285715,
+        "profit_factor": 1.3823712116340867,
+        "trade_count": 175,
+        "avg_gain": 3.8100109910036393
+      }
+    },
+    "EURJPY|H1": {
+      "DisplacementBull": {
+        "win_rate": 0.5727272727272728,
+        "profit_factor": 1.4928650630614426,
+        "trade_count": 110,
+        "avg_gain": 10.472746397799972
+      },
+      "EngulfAtSupport": {
+        "win_rate": 0.5194805194805194,
+        "profit_factor": 1.4482706374325742,
+        "trade_count": 231,
+        "avg_gain": 8.816095353803215
+      },
+      "WolfeWave": {
+        "win_rate": 0.6391752577319587,
+        "profit_factor": 2.4061923397836953,
+        "trade_count": 97,
+        "avg_gain": 22.12116945976734
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.624,
+        "profit_factor": 1.9706541443471268,
+        "trade_count": 125,
+        "avg_gain": 17.684559104155493
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.6590909090909091,
+        "profit_factor": 2.4816123323632797,
+        "trade_count": 44,
+        "avg_gain": 19.72295381919619
+      }
+    },
+    "EURUSD|H1": {
+      "ExhaustionBear": {
+        "win_rate": 0.4722222222222222,
+        "profit_factor": 1.38147607330247,
+        "trade_count": 36,
+        "avg_gain": 5.10812771389205
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.5306122448979592,
+        "profit_factor": 1.5647960458997239,
+        "trade_count": 98,
+        "avg_gain": 7.779569477537328
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.58,
+        "profit_factor": 1.7411049027772494,
+        "trade_count": 50,
+        "avg_gain": 8.378248985310455
+      },
+      "BullishFakey": {
+        "win_rate": 0.5360824742268041,
+        "profit_factor": 1.5687346349935793,
+        "trade_count": 97,
+        "avg_gain": 6.46391225550003
+      }
+    },
+    "GBPCHF|H1": {
+      "ShootingStar": {
+        "win_rate": 0.5670103092783505,
+        "profit_factor": 1.6501874849933023,
+        "trade_count": 97,
+        "avg_gain": 9.48698538173716
+      },
+      "WyckoffUpthrust": {
+        "win_rate": 0.52,
+        "profit_factor": 1.4025489308054637,
+        "trade_count": 150,
+        "avg_gain": 5.926190102645323
+      },
+      "RejectionBlockBear": {
+        "win_rate": 0.547244094488189,
+        "profit_factor": 1.5550163841907267,
+        "trade_count": 254,
+        "avg_gain": 7.877983969436428
+      },
+      "GartleyBear": {
+        "win_rate": 0.5155709342560554,
+        "profit_factor": 1.418926416701172,
+        "trade_count": 289,
+        "avg_gain": 6.735569515516243
+      },
+      "BatBear": {
+        "win_rate": 0.5869565217391305,
+        "profit_factor": 1.9822739461175356,
+        "trade_count": 46,
+        "avg_gain": 12.386993469275376
+      },
+      "WolfeWave": {
+        "win_rate": 0.5434782608695652,
+        "profit_factor": 1.6797795910743347,
+        "trade_count": 92,
+        "avg_gain": 10.566148627973662
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5655737704918032,
+        "profit_factor": 1.842761020416804,
+        "trade_count": 122,
+        "avg_gain": 11.929254437367616
+      }
+    },
+    "GBPJPY|H1": {
+      "DisplacementBull": {
+        "win_rate": 0.5142857142857142,
+        "profit_factor": 1.3154601447972347,
+        "trade_count": 105,
+        "avg_gain": 8.61606539096139
+      },
+      "WolfeWave": {
+        "win_rate": 0.5813953488372093,
+        "profit_factor": 1.8856790729745487,
+        "trade_count": 43,
+        "avg_gain": 22.59594412442828
+      },
+      "MitigationBull": {
+        "win_rate": 0.5303643724696356,
+        "profit_factor": 1.4230533878411042,
+        "trade_count": 247,
+        "avg_gain": 11.639766757737604
+      },
+      "P_BullStrongDragonflyDoji": {
+        "win_rate": 0.5157894736842106,
+        "profit_factor": 1.3073751652616037,
+        "trade_count": 190,
+        "avg_gain": 8.781139782716663
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5396825396825397,
+        "profit_factor": 1.5274940676184907,
+        "trade_count": 63,
+        "avg_gain": 13.331506880157692
+      },
+      "BullishFakey": {
+        "win_rate": 0.5314685314685315,
+        "profit_factor": 1.4032134450280562,
+        "trade_count": 143,
+        "avg_gain": 10.96301606062232
+      }
+    },
+    "GBPNZD|H1": {
+      "WolfeWave": {
+        "win_rate": 0.5652173913043478,
+        "profit_factor": 1.5358373960322487,
+        "trade_count": 69,
+        "avg_gain": 15.114430073093434
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5378151260504201,
+        "profit_factor": 1.6652680806048425,
+        "trade_count": 119,
+        "avg_gain": 19.261520239610395
+      },
+      "HolyGrailPullback": {
+        "win_rate": 0.6,
+        "profit_factor": 1.9926086291354466,
+        "trade_count": 30,
+        "avg_gain": 24.717475864348614
+      },
+      "DescendingTriangle": {
+        "win_rate": 0.5373134328358209,
+        "profit_factor": 1.5258703533853946,
+        "trade_count": 67,
+        "avg_gain": 14.58416164371898
+      }
+    },
+    "GBPUSD|H1": {
+      "TripleBottom": {
+        "win_rate": 0.48484848484848486,
+        "profit_factor": 1.3236704885772774,
+        "trade_count": 297,
+        "avg_gain": 6.467194005635331
+      },
+      "ExhaustionBear": {
+        "win_rate": 0.5333333333333333,
+        "profit_factor": 1.6157732029720802,
+        "trade_count": 45,
+        "avg_gain": 12.057703244043129
+      },
+      "WolfeWave": {
+        "win_rate": 0.5714285714285714,
+        "profit_factor": 1.8170689179144004,
+        "trade_count": 91,
+        "avg_gain": 14.523604216082724
+      },
+      "HolyGrailPullback": {
+        "win_rate": 0.53125,
+        "profit_factor": 1.6138980275879982,
+        "trade_count": 32,
+        "avg_gain": 9.521907935794019
+      }
+    },
+    "NZDCAD|H1": {
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.4881889763779528,
+        "profit_factor": 1.449393439253634,
+        "trade_count": 127,
+        "avg_gain": 5.487044745765642
+      },
+      "BearishFakey": {
+        "win_rate": 0.5540540540540541,
+        "profit_factor": 1.652037098998942,
+        "trade_count": 74,
+        "avg_gain": 7.0776266662562755
+      }
+    },
+    "NZDCHF|H1": {
+      "RSI_BearDiv": {
+        "win_rate": 0.5324165029469549,
+        "profit_factor": 1.3799150626635606,
+        "trade_count": 509,
+        "avg_gain": 3.6330729933608334
+      },
+      "DisplacementBull": {
+        "win_rate": 0.5370370370370371,
+        "profit_factor": 1.5182746241281226,
+        "trade_count": 54,
+        "avg_gain": 4.978139237649628
+      },
+      "DisplacementBear": {
+        "win_rate": 0.5396825396825397,
+        "profit_factor": 1.5626988508531676,
+        "trade_count": 63,
+        "avg_gain": 5.249520647174174
+      },
+      "EqualHighsBear": {
+        "win_rate": 0.5278745644599303,
+        "profit_factor": 1.3757105629324042,
+        "trade_count": 574,
+        "avg_gain": 3.6290945524315643
+      },
+      "ThreeDriveBear": {
+        "win_rate": 0.5517241379310345,
+        "profit_factor": 1.550506655169081,
+        "trade_count": 58,
+        "avg_gain": 5.26593970709474
+      },
+      "BearishFakey": {
+        "win_rate": 0.5434782608695652,
+        "profit_factor": 1.5192029644893597,
+        "trade_count": 92,
+        "avg_gain": 4.660738034123986
+      }
+    },
+    "NZDJPY|H1": {
+      "DisplacementBear": {
+        "win_rate": 0.5882352941176471,
+        "profit_factor": 2.0313799527122494,
+        "trade_count": 68,
+        "avg_gain": 38.28735924981949
+      },
+      "WyckoffSpring": {
+        "win_rate": 0.5045871559633027,
+        "profit_factor": 1.5104763743301897,
+        "trade_count": 109,
+        "avg_gain": 8.371310968300374
+      },
+      "ThreeDriveBull": {
+        "win_rate": 0.5454545454545454,
+        "profit_factor": 1.836307321294431,
+        "trade_count": 44,
+        "avg_gain": 13.46711734894194
+      },
+      "BatBear": {
+        "win_rate": 0.6388888888888888,
+        "profit_factor": 2.628187476363468,
+        "trade_count": 36,
+        "avg_gain": 18.332021873162397
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5384615384615384,
+        "profit_factor": 1.7768980716829108,
+        "trade_count": 78,
+        "avg_gain": 11.723225730975969
+      },
+      "HolyGrailPullback": {
+        "win_rate": 0.42857142857142855,
+        "profit_factor": 1.4772452344749671,
+        "trade_count": 49,
+        "avg_gain": 10.971253886600026
+      },
+      "P_BearStrongGravestoneDoji": {
+        "win_rate": 0.6,
+        "profit_factor": 2.3675879434755758,
+        "trade_count": 75,
+        "avg_gain": 19.84043793278236
+      },
+      "DescendingTriangle": {
+        "win_rate": 0.5833333333333334,
+        "profit_factor": 4.5533258796710765,
+        "trade_count": 48,
+        "avg_gain": 44.25927773750262
+      },
+      "BroadeningTriangle": {
+        "win_rate": 0.4659090909090909,
+        "profit_factor": 1.3087254638781052,
+        "trade_count": 88,
+        "avg_gain": 6.035363046977912
+      }
+    },
+    "NZDUSD|H1": {
+      "AbsorptionBull": {
+        "win_rate": 0.5185185185185185,
+        "profit_factor": 1.498577912097364,
+        "trade_count": 54,
+        "avg_gain": 5.861129053977864
+      },
+      "WolfeWave": {
+        "win_rate": 0.5212765957446809,
+        "profit_factor": 1.435619890219403,
+        "trade_count": 94,
+        "avg_gain": 4.477221394266029
+      },
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.48366013071895425,
+        "profit_factor": 1.3024073810138301,
+        "trade_count": 153,
+        "avg_gain": 3.826594954265561
+      },
+      "P_BullDragonflyDoji": {
+        "win_rate": 0.5,
+        "profit_factor": 1.3013902632854555,
+        "trade_count": 168,
+        "avg_gain": 3.5084090562898496
+      }
+    },
+    "USDCAD|H1": {
+      "WyckoffUpthrust": {
+        "win_rate": 0.4846153846153846,
+        "profit_factor": 1.3093897229613465,
+        "trade_count": 130,
+        "avg_gain": 4.54294360029762
+      },
+      "WolfeWave": {
+        "win_rate": 0.5945945945945946,
+        "profit_factor": 1.6985816565951921,
+        "trade_count": 111,
+        "avg_gain": 9.926388124983884
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.6214285714285714,
+        "profit_factor": 1.9814322546768905,
+        "trade_count": 140,
+        "avg_gain": 12.442332489745246
+      },
+      "P_StrongBullEngulfing": {
+        "win_rate": 0.5104602510460251,
+        "profit_factor": 1.4489890194344361,
+        "trade_count": 239,
+        "avg_gain": 6.661787513530912
+      }
+    },
+    "USDCHF|H1": {
+      "ExhaustionBull": {
+        "win_rate": 0.5897435897435898,
+        "profit_factor": 1.9170461173540991,
+        "trade_count": 39,
+        "avg_gain": 9.898403998288963
+      },
+      "ThreeDriveBull": {
+        "win_rate": 0.5757575757575758,
+        "profit_factor": 1.8672591599634456,
+        "trade_count": 66,
+        "avg_gain": 9.054444805417472
+      },
+      "SharkBull": {
+        "win_rate": 0.5277777777777778,
+        "profit_factor": 1.48823633402975,
+        "trade_count": 36,
+        "avg_gain": 4.793128485530182
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5099337748344371,
+        "profit_factor": 1.3341904875140538,
+        "trade_count": 151,
+        "avg_gain": 3.9763055051112253
+      },
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.6290322580645161,
+        "profit_factor": 2.1585787625117567,
+        "trade_count": 62,
+        "avg_gain": 10.852099025921186
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.5490196078431373,
+        "profit_factor": 1.5024688421608494,
+        "trade_count": 102,
+        "avg_gain": 6.3608209180890976
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5344827586206896,
+        "profit_factor": 1.3238625795461272,
+        "trade_count": 58,
+        "avg_gain": 3.5175779183169262
+      }
+    },
+    "USDJPY|H1": {
+      "TripleBottom": {
+        "win_rate": 0.5591836734693878,
+        "profit_factor": 1.4113650927339467,
+        "trade_count": 245,
+        "avg_gain": 7.602276411407677
+      },
+      "DisplacementBull": {
+        "win_rate": 0.5686274509803921,
+        "profit_factor": 1.5571134122172383,
+        "trade_count": 102,
+        "avg_gain": 9.595423326621118
+      },
+      "ThreeDriveBull": {
+        "win_rate": 0.5370370370370371,
+        "profit_factor": 1.8026621819624746,
+        "trade_count": 54,
+        "avg_gain": 17.141018644218537
+      },
+      "BatBear": {
+        "win_rate": 0.5806451612903226,
+        "profit_factor": 1.7755891726616033,
+        "trade_count": 31,
+        "avg_gain": 14.388745086432527
+      },
+      "SharkBull": {
+        "win_rate": 0.5675675675675675,
+        "profit_factor": 1.7838533150972895,
+        "trade_count": 37,
+        "avg_gain": 11.279672197603661
+      },
+      "MitigationBull": {
+        "win_rate": 0.5229885057471264,
+        "profit_factor": 1.6155775973978135,
+        "trade_count": 174,
+        "avg_gain": 11.002529453449254
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5689655172413793,
+        "profit_factor": 1.828913824780507,
+        "trade_count": 58,
+        "avg_gain": 9.953887111482643
+      }
+    },
+    "XAUUSD|H1": {
+      "AbsorptionBull": {
+        "win_rate": 0.5063291139240507,
+        "profit_factor": 1.5495558146523034,
+        "trade_count": 79,
+        "avg_gain": 23.794590101358754
+      },
+      "BatBull": {
+        "win_rate": 0.5517241379310345,
+        "profit_factor": 2.173452930563329,
+        "trade_count": 87,
+        "avg_gain": 62.56306914418212
+      },
+      "SharkBull": {
+        "win_rate": 0.5365853658536586,
+        "profit_factor": 2.6125594843342266,
+        "trade_count": 41,
+        "avg_gain": 71.54732914555935
+      },
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.4959349593495935,
+        "profit_factor": 1.6900139296998722,
+        "trade_count": 123,
+        "avg_gain": 37.05711086091971
+      },
+      "P_BullDragonflyDoji": {
+        "win_rate": 0.5139664804469274,
+        "profit_factor": 1.6579986806922677,
+        "trade_count": 179,
+        "avg_gain": 34.73778951584123
+      }
+    },
+    "XAGUSD|H1": {
+      "InvHeadAndShoulders": {
+        "win_rate": 0.5317919075144508,
+        "profit_factor": 1.817348827011975,
+        "trade_count": 173,
+        "avg_gain": 11.7217196565954
+      },
+      "BB_BreakUp": {
+        "win_rate": 0.49558638083228246,
+        "profit_factor": 1.3376773080062663,
+        "trade_count": 793,
+        "avg_gain": 5.290221126194067
+      },
+      "ExhaustionBear": {
+        "win_rate": 0.5161290322580645,
+        "profit_factor": 1.4104439649701792,
+        "trade_count": 31,
+        "avg_gain": 5.6105098192483185
+      },
+      "DisplacementBull": {
+        "win_rate": 0.6197183098591549,
+        "profit_factor": 2.858958472850853,
+        "trade_count": 71,
+        "avg_gain": 22.18193207767898
+      },
+      "VolClimaxBull": {
+        "win_rate": 0.5309446254071661,
+        "profit_factor": 1.745334422322859,
+        "trade_count": 307,
+        "avg_gain": 11.774535604588584
+      },
+      "BatBear": {
+        "win_rate": 0.5428571428571428,
+        "profit_factor": 1.5379634655210044,
+        "trade_count": 35,
+        "avg_gain": 5.444634995529002
+      },
+      "WolfeWave": {
+        "win_rate": 0.5,
+        "profit_factor": 1.7422979887809291,
+        "trade_count": 88,
+        "avg_gain": 10.803052276833903
+      },
+      "ADXTrendIgnition": {
+        "win_rate": 0.4533333333333333,
+        "profit_factor": 1.3965374672727622,
+        "trade_count": 375,
+        "avg_gain": 6.561674108902443
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.52,
+        "profit_factor": 1.461514046626216,
+        "trade_count": 50,
+        "avg_gain": 5.966743164456985
+      }
+    },
+    "GER40|H1": {
+      "MorningStar": {
+        "win_rate": 0.5154320987654321,
+        "profit_factor": 1.5156390747015778,
+        "trade_count": 324,
+        "avg_gain": 234.59262462535148
+      },
+      "TripleBottom": {
+        "win_rate": 0.48947368421052634,
+        "profit_factor": 1.3360534313690786,
+        "trade_count": 190,
+        "avg_gain": 171.07828832723843
+      },
+      "InvHeadAndShoulders": {
+        "win_rate": 0.5257731958762887,
+        "profit_factor": 1.4517574646961684,
+        "trade_count": 97,
+        "avg_gain": 209.63789510298363
+      },
+      "RSI_Oversold": {
+        "win_rate": 0.48427672955974843,
+        "profit_factor": 1.3026539421209233,
+        "trade_count": 318,
+        "avg_gain": 177.39572697509482
+      },
+      "GartleyBull": {
+        "win_rate": 0.5116959064327485,
+        "profit_factor": 1.3717446422257227,
+        "trade_count": 342,
+        "avg_gain": 165.19484772670378
+      },
+      "BatBull": {
+        "win_rate": 0.55,
+        "profit_factor": 1.5855950276462747,
+        "trade_count": 80,
+        "avg_gain": 230.76263564952478
+      },
+      "CypherBull": {
+        "win_rate": 0.5073313782991202,
+        "profit_factor": 1.326414753784897,
+        "trade_count": 341,
+        "avg_gain": 145.94942421131645
+      },
+      "SharkBull": {
+        "win_rate": 0.5714285714285714,
+        "profit_factor": 1.8771000530773336,
+        "trade_count": 49,
+        "avg_gain": 304.53943781387426
+      },
+      "WolfeWave": {
+        "win_rate": 0.49333333333333335,
+        "profit_factor": 1.4271374518567967,
+        "trade_count": 75,
+        "avg_gain": 210.92519600055553
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.59,
+        "profit_factor": 1.8603237774140335,
+        "trade_count": 100,
+        "avg_gain": 373.3501842984791
+      },
+      "P_BearGravestoneDoji": {
+        "win_rate": 0.46464646464646464,
+        "profit_factor": 1.3886669426075704,
+        "trade_count": 99,
+        "avg_gain": 180.5660054790796
+      },
+      "P_BullDragonflyDoji": {
+        "win_rate": 0.5490196078431373,
+        "profit_factor": 1.5876040542564267,
+        "trade_count": 153,
+        "avg_gain": 259.3442789570549
+      },
+      "SymmetricalTriangle": {
+        "win_rate": 0.5588235294117647,
+        "profit_factor": 1.8883209589137728,
+        "trade_count": 68,
+        "avg_gain": 332.9561104076902
+      }
+    },
+    "NAS100|H1": {
+      "DisplacementBull": {
+        "win_rate": 0.6153846153846154,
+        "profit_factor": 1.7214438414001132,
+        "trade_count": 104,
+        "avg_gain": 298.15982062111004
+      },
+      "HolyGrailPullback": {
+        "win_rate": 0.65625,
+        "profit_factor": 2.054704137164561,
+        "trade_count": 32,
+        "avg_gain": 423.0628543264612
+      },
+      "P_BullDragonflyDoji": {
+        "win_rate": 0.5287356321839081,
+        "profit_factor": 1.3020986479468235,
+        "trade_count": 174,
+        "avg_gain": 165.23084253613288
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.5294117647058824,
+        "profit_factor": 1.5261809739424377,
+        "trade_count": 68,
+        "avg_gain": 280.3875196799967
+      }
+    },
+    "US30|H1": {
+      "WyckoffSpring": {
+        "win_rate": 0.5517241379310345,
+        "profit_factor": 1.4728016082223043,
+        "trade_count": 116,
+        "avg_gain": 410.9190053080316
+      },
+      "EngulfAtSupport": {
+        "win_rate": 0.5427509293680297,
+        "profit_factor": 1.653340486584185,
+        "trade_count": 269,
+        "avg_gain": 480.19584285520835
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5423728813559322,
+        "profit_factor": 1.513139293739146,
+        "trade_count": 118,
+        "avg_gain": 464.5120791301482
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5454545454545454,
+        "profit_factor": 1.7200908356322173,
+        "trade_count": 33,
+        "avg_gain": 429.0199841581897
+      }
+    },
+    "US500|H1": {
+      "AbsorptionBear": {
+        "win_rate": 0.5128205128205128,
+        "profit_factor": 1.4230015539552494,
+        "trade_count": 117,
+        "avg_gain": 43.166250935739306
+      },
+      "ExhaustionBull": {
+        "win_rate": 0.6666666666666666,
+        "profit_factor": 2.65998113027337,
+        "trade_count": 30,
+        "avg_gain": 139.17696851405708
+      },
+      "DisplacementBull": {
+        "win_rate": 0.5543478260869565,
+        "profit_factor": 1.6468605400083727,
+        "trade_count": 92,
+        "avg_gain": 69.7710225945746
+      },
+      "EngulfAtSupport": {
+        "win_rate": 0.4843205574912892,
+        "profit_factor": 1.30437624373956,
+        "trade_count": 287,
+        "avg_gain": 38.81358240207431
+      },
+      "SymmetricalTriangle": {
+        "win_rate": 0.6129032258064516,
+        "profit_factor": 1.8052700514679165,
+        "trade_count": 62,
+        "avg_gain": 76.23894411086138
+      }
+    },
+    "XBRUSD|H1": {
+      "MorningStar": {
+        "win_rate": 0.5286343612334802,
+        "profit_factor": 1.471879278575084,
+        "trade_count": 227,
+        "avg_gain": 21.44211729064274
+      },
+      "ATR_Expansion": {
+        "win_rate": 0.5185185185185185,
+        "profit_factor": 1.466518781797692,
+        "trade_count": 54,
+        "avg_gain": 32.68853916226412
+      },
+      "DisplacementBear": {
+        "win_rate": 0.5333333333333333,
+        "profit_factor": 1.4749271115006322,
+        "trade_count": 60,
+        "avg_gain": 23.69766823834124
+      },
+      "VolClimaxBear": {
+        "win_rate": 0.4980694980694981,
+        "profit_factor": 1.377856995421443,
+        "trade_count": 259,
+        "avg_gain": 20.55101162026819
+      },
+      "SharkBear": {
+        "win_rate": 0.46875,
+        "profit_factor": 1.6763662965637192,
+        "trade_count": 32,
+        "avg_gain": 21.58134217434833
+      },
+      "WolfeWave": {
+        "win_rate": 0.6363636363636364,
+        "profit_factor": 1.7924996647795768,
+        "trade_count": 66,
+        "avg_gain": 33.81632711315702
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.53,
+        "profit_factor": 1.3642506399091654,
+        "trade_count": 100,
+        "avg_gain": 16.469912729311435
+      },
+      "P_ThreeBlackCrows": {
+        "win_rate": 0.5476190476190477,
+        "profit_factor": 2.2609911859816174,
+        "trade_count": 42,
+        "avg_gain": 53.507473314185475
+      },
+      "DivAtPivotBull": {
+        "win_rate": 0.5102040816326531,
+        "profit_factor": 1.3815333558489022,
+        "trade_count": 147,
+        "avg_gain": 18.784546896144946
+      },
+      "DivAtPivotBear": {
+        "win_rate": 0.5364583333333334,
+        "profit_factor": 1.497952210607764,
+        "trade_count": 192,
+        "avg_gain": 22.002654175281307
+      }
+    },
+    "XTIUSD|H1": {
+      "HeadAndShoulders": {
+        "win_rate": 0.5522388059701493,
+        "profit_factor": 1.7252988951505057,
+        "trade_count": 67,
+        "avg_gain": 32.83175760585237
+      },
+      "InvHeadAndShoulders": {
+        "win_rate": 0.54,
+        "profit_factor": 1.5807182869926448,
+        "trade_count": 100,
+        "avg_gain": 24.640986508389197
+      },
+      "SFP_Bull": {
+        "win_rate": 0.5144628099173554,
+        "profit_factor": 1.3125523529365646,
+        "trade_count": 484,
+        "avg_gain": 14.932319662936953
+      },
+      "WyckoffUpthrust": {
+        "win_rate": 0.6307692307692307,
+        "profit_factor": 2.0987921588544793,
+        "trade_count": 65,
+        "avg_gain": 40.19923912399883
+      },
+      "ElliottWaveExhaustion": {
+        "win_rate": 0.5543478260869565,
+        "profit_factor": 1.5066775935681542,
+        "trade_count": 92,
+        "avg_gain": 20.522593010499182
+      },
+      "AscendingTriangle": {
+        "win_rate": 0.5897435897435898,
+        "profit_factor": 2.139041807697136,
+        "trade_count": 39,
+        "avg_gain": 39.08704574233338
+      },
+      "DivAtPivotBull": {
+        "win_rate": 0.5100671140939598,
+        "profit_factor": 1.4603904682246283,
+        "trade_count": 149,
+        "avg_gain": 21.482269330735157
+      }
+    }
+  }
+}
