@@ -88,6 +88,16 @@ python main_llm.py
 ## Disclaimer
 **Trading involves significant risk to your capital.** This software is provided "as is" without warranty of any kind. This is a research and educational tool. Do not trade with money you cannot afford to lose.
 
+
+
+<img width="2536" height="1425" alt="image" src="https://github.com/user-attachments/assets/d03e7d69-28a4-42e7-80b6-994bbf3082e1" />
+
+
+<img width="2553" height="1415" alt="image" src="https://github.com/user-attachments/assets/00fe2051-5e15-4a0e-8525-764e11be43ab" />
+
+
+<img width="2546" height="1427" alt="image" src="https://github.com/user-attachments/assets/70c3f790-569a-4598-991b-5bfcb1babe2a" />
+
 ---
 
 <div align="center">
