@@ -1,0 +1,70 @@
+# News Calendar (auto-fetched from server)
+datetime,currency,event
+2026-03-16 14:30,CAD,CPI m/m
+2026-03-16 14:30,CAD,Median CPI y/y
+2026-03-16 14:30,CAD,Trimmed CPI y/y
+2026-03-16 14:30,USD,Core Retail Sales m/m
+2026-03-16 14:30,USD,Retail Sales m/m
+2026-03-17 05:30,AUD,Cash Rate
+2026-03-17 05:30,AUD,RBA Rate Statement
+2026-03-17 06:30,AUD,RBA Press Conference
+2026-03-18 14:30,USD,Core PPI m/m
+2026-03-18 14:30,USD,PPI m/m
+2026-03-18 15:45,CAD,BOC Rate Statement
+2026-03-18 15:45,CAD,Overnight Rate
+2026-03-18 16:30,CAD,BOC Press Conference
+2026-03-18 20:00,USD,Federal Funds Rate
+2026-03-18 20:00,USD,FOMC Economic Projections
+2026-03-18 20:00,USD,FOMC Statement
+2026-03-18 20:30,USD,FOMC Press Conference
+2026-03-18 23:45,NZD,GDP q/q
+2026-03-19 02:30,AUD,Employment Change
+2026-03-19 02:30,AUD,Unemployment Rate
+2026-03-19 03:00,JPY,BOJ Policy Rate
+2026-03-19 03:00,JPY,Monetary Policy Statement
+2026-03-19 03:00,JPY,BOJ Press Conference
+2026-03-19 08:00,GBP,Claimant Count Change
+2026-03-19 10:30,CHF,SNB Monetary Policy Assessment
+2026-03-19 10:30,CHF,SNB Policy Rate
+2026-03-19 11:00,CHF,SNB Press Conference
+2026-03-19 13:00,GBP,Monetary Policy Summary
+2026-03-19 13:00,GBP,MPC Official Bank Rate Votes
+2026-03-19 13:00,GBP,Official Bank Rate
+2026-03-19 14:30,GBP,Annual Budget Release
+2026-03-19 14:30,USD,Unemployment Claims
+2026-03-19 15:15,EUR,Main Refinancing Rate
+2026-03-19 15:15,EUR,Monetary Policy Statement
+2026-03-19 15:45,EUR,ECB Press Conference
+2026-03-24 10:30,EUR,German Flash Manufacturing PMI
+2026-03-24 10:30,EUR,German Flash Services PMI
+2026-03-24 10:30,GBP,Flash Manufacturing PMI
+2026-03-24 10:30,GBP,Flash Services PMI
+2026-03-24 15:45,USD,Flash Manufacturing PMI
+2026-03-24 15:45,USD,Flash Services PMI
+2026-03-25 02:30,AUD,CPI m/m
+2026-03-25 02:30,AUD,CPI y/y
+2026-03-25 02:30,AUD,Trimmed Mean CPI m/m
+2026-03-25 08:00,GBP,CPI y/y
+2026-03-26 14:30,USD,Unemployment Claims
+2026-03-27 08:00,GBP,Retail Sales m/m
+2026-03-31 15:30,CAD,GDP m/m
+2026-04-01 15:15,USD,ADP Non-Farm Employment Change
+2026-04-01 17:00,USD,ISM Manufacturing PMI
+2026-04-01 17:00,USD,JOLTS Job Openings
+2026-04-02 15:30,USD,Unemployment Claims
+2026-04-03 09:30,CHF,CPI m/m
+2026-04-03 15:30,USD,Average Hourly Earnings m/m
+2026-04-03 15:30,USD,Non-Farm Employment Change
+2026-04-03 15:30,USD,Unemployment Rate
+2026-04-03 17:00,USD,ISM Services PMI
+2026-04-08 05:00,NZD,Official Cash Rate
+2026-04-08 05:00,NZD,RBNZ Rate Statement
+2026-04-08 21:00,USD,FOMC Meeting Minutes
+2026-04-09 15:30,USD,Core PCE Price Index m/m
+2026-04-09 15:30,USD,Final GDP q/q
+2026-04-09 15:30,USD,Unemployment Claims
+2026-04-10 15:30,CAD,Employment Change
+2026-04-10 15:30,CAD,Unemployment Rate
+2026-04-10 15:30,USD,Core CPI m/m
+2026-04-10 15:30,USD,CPI m/m
+2026-04-10 15:30,USD,CPI y/y

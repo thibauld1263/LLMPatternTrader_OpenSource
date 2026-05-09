@@ -1,0 +1,27 @@
+{
+  "comment": "Main Config File",
+  "models": [
+    {
+      "display_name": "DeepSeek",
+      "model_id": "deepseek-reasoner",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "api_base_url_env": "DEEPSEEK_API_BASE_URL"
+    }
+  ],
+  "agent_config": {
+    "last_selected_model_id": "deepseek-reasoner",
+    "last_selected_profile_name": "1-Hour",
+    "trading_symbols": [
+      "GBPAUD",
+      "EURCAD",
+      "EURGBP",
+      "XAUUSD",
+      "AUDUSD",
+      "EURUSD",
+      "GBPCAD",
+      "GBPJPY",
+      "USDCHF",
+      "USDJPY"
+    ]
+  }
+}

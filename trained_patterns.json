@@ -1,0 +1,19 @@
+{
+  "AUDCAD|H1": [
+    "ShootingStar",
+    "RSI_Overbought",
+    "RSI_BearDiv",
+    "ThreeDriveBear",
+    "ReturnToOriginBull"
+  ],
+  "AUDCHF|H1": [
+    "ExhaustionBull",
+    "DisplacementBull",
+    "BatBear"
+  ],
+  "AUDJPY|H1": [
+    "InvHeadAndShoulders",
+    "ExhaustionBear",
+    "BatBear"
+  ]
+}
