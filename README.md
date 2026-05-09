@@ -18,7 +18,7 @@ If you find this open-source project useful, please consider supporting the deve
 
 ## Core Features
 
-*   **MetaTrader 5 Integration:** Fetches real-time ticks, historical data, and symbol properties directly from MT5.
+*   **MetaTrader 5 Integration:** Fetches OHLCV, historical data, and symbol properties directly from MT5.
 *   **Pattern Recognition:** Scans the market continuously for custom candlestick and sequential patterns.
 *   **Technical Context Engine:** Generates a market report for every signal including EMA, RSI, MACD, Bollinger Bands, ADX, ATR, and volume analytics.
 *   **LLM Trade Validation:** The engine asks an AI to evaluate the technical context of a pattern before placing the trade, mapping the LLM's grade to dynamic fractional lot sizing.
