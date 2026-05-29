@@ -46,6 +46,10 @@ venv.bak/
 cache/
 results/
 
+# Personal drafts / notes (keep local)
+medium_article_draft.md
+medium_article_final.txt
+
 # OS specific
 .DS_Store
 Thumbs.db

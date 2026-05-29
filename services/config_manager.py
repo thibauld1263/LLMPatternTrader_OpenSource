@@ -111,11 +111,11 @@ class ConfigManager:
                 if match:
                     key = match.group(1)
                     if key in updates:
-                        lines[i] = f'{key}="{updates[key]}"\n'
+                        lines[i] = f"{key}='{updates[key]}'\n"
                         updated_keys.add(key)
             for key, value in updates.items():
                 if key not in updated_keys:
-                    lines.append(f'{key}="{value}"\n')
+                    lines.append(f"{key}='{value}'\n")
             with open(env_file, 'w', encoding='utf-8') as f:
                 f.writelines(lines)
         except Exception as e:

@@ -709,7 +709,7 @@ class MainWindow(QMainWindow):
             
             saved_path = os.getenv("MT4_DATA_PATH", "")
             if not saved_path:
-                saved_path = r"C:\Program Files\Fusion Markets MetaTrader 5\terminal64.exe"
+                saved_path = r"C:\Program Files\MetaTrader 5\terminal64.exe"
             self.mt4_path_input.setText(saved_path)
             
             if (last_model_id := agent_config.get("last_selected_model_id")):

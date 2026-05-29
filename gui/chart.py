@@ -54,7 +54,11 @@ class CandlestickItem(pg.GraphicsObject):
         p.drawPicture(0, 0, self.picture)
 
     def boundingRect(self):
-        return pg.QtCore.QRectF(self.picture.boundingRect())
+        if len(self.data) == 0:
+            return pg.QtCore.QRectF()
+        ymin = float(self.data['low'].min())
+        ymax = float(self.data['high'].max())
+        return pg.QtCore.QRectF(-1, ymin, len(self.data) + 1, ymax - ymin)
 
 
 class ChartWidget(QWidget):
@@ -174,7 +178,12 @@ class ChartWidget(QWidget):
                 p.drawPicture(0, 0, self.picture)
 
             def boundingRect(self):
-                return pg.QtCore.QRectF(self.picture.boundingRect())
+                if len(self.data) == 0:
+                    return pg.QtCore.QRectF()
+                x0, x1 = self.ts[0], self.ts[-1]
+                ymin = float(self.data['low'].min())
+                ymax = float(self.data['high'].max())
+                return pg.QtCore.QRectF(x0 - 1, ymin, (x1 - x0) + 2, ymax - ymin)
 
         # Load Candles
         self.candlestick_item = DateCandlestickItem(df, x_indices)

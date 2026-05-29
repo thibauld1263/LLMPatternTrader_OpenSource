@@ -1,0 +1,11 @@
+MetaTrader5==5.0.47
+pandas==2.3.0
+numpy==1.26.4
+PyQt5==5.15.10
+pyqtgraph==0.14.0
+qasync==0.28.0
+python-dotenv==1.0.1
+openai==2.8.1
+anthropic==0.83.0
+matplotlib==3.9.2
+Markdown==3.6
