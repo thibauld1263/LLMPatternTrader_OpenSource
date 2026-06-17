@@ -14,7 +14,7 @@ from backtester import Backtester
 from services.llm_agent import LLMRiskAgent
 from services.order_executor import MT5OrderExecutor
 import ta_utils as utils
-from news_filter import get_blocked_currencies, is_symbol_blocked, fetch_news_from_server
+from news_filter import get_blocked_currencies, is_symbol_blocked, load_news_calendar
 
 logger = logging.getLogger(__name__)
 
@@ -457,13 +457,13 @@ class TradingEngine(QObject):
             news_before = session_config.get("news_buffer_before", 120)
             news_after = session_config.get("news_buffer_after", 120)
             
-            # Fetch news from server
-            self.status_update.emit("Fetching news calendar from server...", "status_label_pending")
-            logger.info({"type": "observation", "message": "Fetching news calendar from server..."})
-            news_ok = fetch_news_from_server()
+            # Load local news calendar
+            self.status_update.emit("Loading local news calendar...", "status_label_pending")
+            logger.info({"type": "observation", "message": "Loading local news calendar..."})
+            news_ok = load_news_calendar()
             if not news_ok:
-                logger.error("CRITICAL: Could not fetch news calendar. Trading cannot proceed without news data.")
-                self.status_update.emit("ERROR: News calendar unavailable. Check internet connection.", "status_label_error")
+                logger.error("CRITICAL: Could not load local news calendar. Trading cannot proceed without news data.")
+                self.status_update.emit("ERROR: Local news calendar unavailable (news_calendar.csv missing).", "status_label_error")
                 return
             logger.info({"type": "observation", "message": f"News loaded. Buffer: {news_before}min before / {news_after}min after."})
             

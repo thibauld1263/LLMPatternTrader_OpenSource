@@ -1,6 +1,6 @@
 """
 News Calendar Filter
-Fetches news events from the news server on startup.
+Loads news events from the local calendar file on startup.
 Blocks NEW ENTRIES on affected currency pairs within a configurable buffer window.
 USD news = TOTAL BLACKOUT on ALL pairs (entries only — exits/holds NOT blocked).
 
@@ -10,7 +10,6 @@ We fetch broker time directly from MT5 — no UTC translation.
 
 import os
 import csv
-import json
 import logging
 from datetime import datetime, timedelta
 from typing import Set
@@ -18,7 +17,6 @@ from typing import Set
 logger = logging.getLogger(__name__)
 
 _CALENDAR_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "news_calendar.csv")
-_NEWS_URL = "https://www.omegatradinghub.com/api/news?public=true"
 
 # Default buffer: 2 hours before and after
 _BUFFER_BEFORE_MINUTES = 120
@@ -29,62 +27,15 @@ _cached_events = []
 _news_loaded = False
 
 
-def fetch_news_from_server() -> bool:
-    """Fetch news events from the server and save to local cache.
-    Returns True if successful, False otherwise.
+def load_news_calendar() -> bool:
+    """Load news events from the local calendar file.
+    Returns True if events were loaded, False otherwise.
     """
-    global _cached_events, _news_loaded
-    
-    try:
-        import urllib.request
-        import ssl
-        
-        # Create an SSL context that doesn't verify certificates (for some VPS environments)
-        ctx = ssl.create_default_context()
-        
-        req = urllib.request.Request(_NEWS_URL, headers={'User-Agent': 'LLMPatternTrader/1.0'})
-        with urllib.request.urlopen(req, timeout=15, context=ctx) as response:
-            data = json.loads(response.read().decode('utf-8'))
-        
-        events = data.get('events', [])
-        _cached_events = events
-        _news_loaded = True
-        
-        # Also save to local CSV as backup
-        _save_events_to_csv(events)
-        
-        logger.info(f"[NEWS] Fetched {len(events)} news events from server.")
-        return True
-        
-    except Exception as e:
-        logger.error(f"[NEWS] Failed to fetch news from server: {e}")
-        
-        # Try loading from local CSV backup
-        if os.path.isfile(_CALENDAR_PATH):
-            logger.warning("[NEWS] Using local backup news_calendar.csv")
-            _load_events_from_csv()
-            return True
-        
+    if not os.path.isfile(_CALENDAR_PATH):
+        logger.error(f"[NEWS] Local news calendar not found: {_CALENDAR_PATH}")
         return False
-
-
-def _save_events_to_csv(events: list):
-    """Save events to local CSV as backup."""
-    try:
-        with open(_CALENDAR_PATH, 'w', encoding='utf-8', newline='') as f:
-            f.write("# News Calendar (auto-fetched from server)\n")
-            writer = csv.DictWriter(f, fieldnames=['datetime', 'currency', 'event'])
-            writer.writeheader()
-            for evt in events:
-                # Convert datetime-local format to our expected format
-                dt_str = evt.get('datetime', '').replace('T', ' ')
-                writer.writerow({
-                    'datetime': dt_str,
-                    'currency': evt.get('currency', ''),
-                    'event': evt.get('event', ''),
-                })
-    except Exception as e:
-        logger.warning(f"[NEWS] Could not save backup CSV: {e}")
+    _load_events_from_csv()
+    return _news_loaded
 
 
 def _load_events_from_csv():
